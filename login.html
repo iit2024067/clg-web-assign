@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FitTrack</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <h1>FitTrack</h1> 
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./features.html">Features</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li>
+                    <a href="./login.html" id="login-page" class="active">Login</a> <!-- Initial state -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="login-main">
+        <form id="login-form">
+            <h2>Login</h2>
+            <!-- Name field -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    
+            <!-- Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>&copy; 2025 FitTrack. All rights reserved.</p>
+    </footer>
+</body>
+</html>

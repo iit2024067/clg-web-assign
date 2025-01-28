@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker - Contact Us</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>FitTrack</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./features.html">Features</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
+                <li id="login-logout">
+                    <a href="./login.html" id="login-page">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required class="responsive-message-box"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>&copy; 2025 FitTrack. All rights reserved.</p>
+    </footer>
+</body>
+</html>

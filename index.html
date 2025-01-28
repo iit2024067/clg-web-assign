@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>FitTrack</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./features.html">Features</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li id="login-logout">
+                    <a href="./login.html" id="login-link">Login</a> <!-- Initial state -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Intro Section -->
+    <section id="intro">
+        <div class="intro-content">
+            <h2>Welcome to FitTrack</h2>
+            <p>
+                At FitTrack, we are passionate about helping you achieve your fitness goals. 
+                Whether you’re just starting your fitness journey or you're a seasoned athlete, 
+                our platform provides you with personalized tools and guidance to track your progress, 
+                stay motivated, and improve every day. Join thousands of users who trust FitTrack 
+                for their health and wellness needs!
+            </p>
+        </div>
+    </section>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="overlay-text">
+                <h1>Track Your Fitness Journey</h1>
+                <p>Stay motivated, stay fit! Your health, your priority.</p>
+                <a href="./features.html" class="cta-button">Get Started</a>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Track your daily steps</li>
+                <li>Monitor your calorie intake</li>
+                <li>Set and achieve fitness goals</li>
+                <li>Get personalized fitness tips</li>
+            </ul>
+        </section>
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Personalized Coaching</h3>
+                <p>Get guidance from our certified fitness trainers to achieve your health goals.</p>
+            </div>
+            <div class="service">
+                <h3>Nutrition Plans</h3>
+                <p>Customized meal plans to suit your body type and lifestyle.</p>
+            </div>
+            <div class="service">
+                <h3>Community Challenges</h3>
+                <p>Join our fitness challenges and compete with others to stay motivated.</p>
+            </div>
+        </section>
+        <!-- Blog Section -->
+        <section id="blogs">
+            <h2>Latest Articles</h2>
+            <div class="blog">
+                <h3>Top 5 Workouts for Weight Loss</h3>
+                <p>Discover effective exercises to shed those extra pounds and get fit.</p>
+                <a href="https://retailio.in/5-Exercises-for-Weight-Loss.html" target="_blank" >Read More</a>
+            </div>
+            <div class="blog">
+                <h3>Healthy Eating: Tips and Tricks</h3>
+                <p>Learn how to maintain a balanced diet without compromising on taste.</p>
+                <a href="https://www.cdc.gov/nccdphp/dnpao/features/healthy-eating-tips/index.html" target="_blank">Read More</a>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <blockquote>
+                <p>"This tracker transformed my fitness routine!"</p>
+                <cite>- Jane Doe</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Highly recommend it to anyone serious about fitness."</p>
+                <cite>- John Smith</cite>
+            </blockquote>
+        </section>
+        <!-- Feedback Section -->
+        <section id="contact">
+            <h2>Feedback</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">message:</label><br>
+                    <textarea id="message" name="message" rows="4" required class="responsive-message-box"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>&copy; 2025 FitTrack. All rights reserved.</p>
+    </footer>
+</body>
+</html>
